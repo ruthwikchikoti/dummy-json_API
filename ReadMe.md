@@ -22,8 +22,8 @@ This project demonstrates:
 
 Clone this repository
 ```bash
-   git clone https://github.com/ruthwikchikoti/nodejs-dummy-json_API.git
-   cd nodejs-dummy-json_API
+   git clone https://github.com/ruthwikchikoti/dummy-json_API.git
+   cd dummy-json_API
 ```
 
 Create a `.env` file in the root directory and add the following:
@@ -172,8 +172,7 @@ Retrieve the data with optional filtering and sorting.
             "error": "Filter error",
             "message": "Filter error: Invalid filter format: language"
             }
-          ```
-
+        
 -   3. No Matching Items :
 
         * url : `http://localhost:3000/api/data?filter=language=hinfi`
