@@ -188,7 +188,7 @@ Retrieve the data with optional filtering and sorting.
 
 -   4 . Invalid Sort Format:
 
-    * url : `http://localhost:3000/api/data?sort=version:decs`
+    * url : `http://localhost:3000/api/data?sort=version:desc`
 
     * Response :
 
